@@ -4,6 +4,7 @@ Real-time multi-server GPU health dashboard. SSH into configured GPU servers, co
 
 ![architecture](https://img.shields.io/badge/Python-3.10+-blue) ![frontend](https://img.shields.io/badge/React-19-61dafb) ![license](https://img.shields.io/badge/license-MIT-green)
 
+![iamge](preview.png)
 ## Features
 
 - **Multi-server monitoring** — one dashboard for all your GPU machines
