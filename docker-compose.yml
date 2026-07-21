@@ -1,0 +1,16 @@
+services:
+  gpu-monitor:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: gpu-monitor
+    # Run as your host user so SSH key paths resolve correctly.
+    # Replace with your uid:gid (run `id -u` and `id -g`).
+    user: "1000:1000"
+    env_file:
+      - .env
+    network_mode: host
+    volumes:
+      - ~/.ssh:/home/user/.ssh:ro
+      - ./servers.json:/app/servers.json:ro
+    restart: unless-stopped

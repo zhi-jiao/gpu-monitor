@@ -1,0 +1,8 @@
+{
+  "my-gpu-server": {
+    "host": "10.0.0.1",
+    "port": 22,
+    "user": "your-username",
+    "key": "~/.ssh/id_rsa"
+  }
+}

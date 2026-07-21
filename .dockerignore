@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+node_modules/
+web/node_modules/
+web/dist/
+.git/
+.omo/
+.codegraph/
+.env
+*.log
+.DS_Store
